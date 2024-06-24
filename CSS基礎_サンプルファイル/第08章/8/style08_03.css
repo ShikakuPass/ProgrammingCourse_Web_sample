@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#weight01 {
+	font-weight : 900;
+}
+
+#weight02 {
+	font-weight : normal;
+}
+
+#weight03 {
+	font-weight : lighter;
+}
+
+#weight04 {
+	font-weight : bolder;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>9.4　オブジェクトの生成と利用方法</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var Product = function(n, p) {
+	this.name = n;
+	this.price = p;
+	
+	this.display = function() {
+		document.write("名前：" + this.name + "<br>");
+		document.write("単価：" + this.price + "<br>");
+	}
+}
+
+Product.prototype.tax = 0.08;
+
+Product.prototype.displayTax = function() {
+	document.write("消費税：" + this.tax + "<br>");
+}
+
+//１つ目の商品
+var p1 = new Product("りんご", 200);
+p1.display();
+p1.displayTax();
+
+//２つ目の商品
+var p2 = new Product("みかん", 150);
+p2.display();
+p2.displayTax();
+</script>
+
+</body>
+</html>

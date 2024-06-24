@@ -1,0 +1,22 @@
+﻿@charset "UTF-8";
+
+ul {
+	list-style-type : none;
+}
+
+ul li {
+	float : left;
+	width : 150px;
+	border-style : solid;
+	background-color : lime;
+	text-align : center;
+	margin : 1px;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+ul li:hover {
+	background-color : red;
+}

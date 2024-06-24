@@ -1,0 +1,28 @@
+﻿@charset "UTF-8";
+
+#header {
+	border-style : solid;
+	background-color : yellow;
+}
+
+#menu {
+	float : left;
+	width : 30%;
+	height : 300px;
+	border-style : solid;
+	background-color : cyan;
+}
+
+#content {
+	float : right;
+	width : 69%;
+	height : 300px;
+	border-style : solid;
+	background-color : lime;
+}
+
+#footer {
+	clear : both;
+	border-style : solid;
+	background-color : red;
+}

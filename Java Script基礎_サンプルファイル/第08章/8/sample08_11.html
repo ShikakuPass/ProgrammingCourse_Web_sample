@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.4　無名関数</title>
+</head>
+<body>
+
+<script type="text/javascript">
+function keisan(flag) {
+	var ref;
+	
+	if (flag == true) {
+		ref = function(x, y) {
+			return x + y;
+		}
+	} else {
+		ref = function(x, y) {
+			return x - y;
+		}
+	}
+	
+	return ref;
+}
+
+var calc = keisan(false);
+var result = calc(10, 20);
+
+document.write(result);
+</script>
+
+</body>
+</html>

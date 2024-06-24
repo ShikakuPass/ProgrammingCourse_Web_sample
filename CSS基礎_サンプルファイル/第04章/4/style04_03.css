@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+a[href] {
+	color : red;
+}
+
+a[name] {
+	color : blue;
+}

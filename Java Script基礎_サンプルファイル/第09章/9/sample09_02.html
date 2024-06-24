@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>9.3　prototypeプロパティ</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var Product = function(n, p) {
+	this.name = n;
+	this.price = p;
+	
+	this.display = function() {
+		document.write("名前：" + this.name + "<br>");
+		document.write("単価：" + this.price + "<br>");
+	}
+}
+
+Product.prototype.tax = 0.08;
+
+Product.prototype.displayTax = function() {
+	document.write("消費税：" + this.tax + "<br>");
+}
+</script>
+
+</body>
+</html>

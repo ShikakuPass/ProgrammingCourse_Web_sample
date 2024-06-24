@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#align01 {
+	text-align : left;
+}
+
+#align02 {
+	text-align : center;
+}
+
+#align03 {
+	text-align : right;
+}

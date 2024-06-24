@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>9.2　コンストラクタ関数</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var Product = function(n, p) {
+	this.name = n;
+	this.price = p;
+	
+	this.display = function() {
+	       document.write("名前：" + this.name + "<br>");
+	       document.write("単価：" + this.price + "<br>");
+	}
+}
+</script>
+
+</body>
+</html>

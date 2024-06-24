@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+table {
+	width : 300px;
+	table-layout : fixed;
+	border-collapse : separate;
+}
+
+table, td {
+	border-style : solid;
+}
+
+.cell01 {
+	empty-cells : show;
+}
+
+.cell02 {
+	empty-cells : hide;
+}

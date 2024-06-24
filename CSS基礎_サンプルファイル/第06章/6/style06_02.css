@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+a:hover {
+	background-color : yellow;
+}
+
+a:active {
+	color : red;
+}

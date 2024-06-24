@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#dec01 {
+	text-decoration : overline;
+}
+
+#dec02 {
+	text-decoration : underline;
+}
+
+#dec03 {
+	text-decoration : line-through;
+}

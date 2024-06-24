@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+a[name~="XXX"] {
+	background-color : red;
+}
+
+a[name~="YYY"] {
+	color : blue;
+}

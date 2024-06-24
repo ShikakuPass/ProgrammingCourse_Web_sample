@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#size01 {
+	font-size : 150%;
+}
+
+#size02 {
+	font-size : 2em;
+}
+
+#size03 {
+	font-size : x-small;
+}
+
+#size04 {
+	font-size : xx-large;
+}
